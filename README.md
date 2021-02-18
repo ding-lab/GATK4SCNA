@@ -62,6 +62,8 @@ Usage
 
 [Note] Set `config.ini` location to `gatk_somatic.cnv.mgi.sh`
 
+```
+
 1. CollectFragmentCounts for Normal Bam
    `sh gatk_somatic.cnv.mgi.sh -p precall -t ./bam.catalog -o ./gatk4scna`
     
@@ -77,6 +79,7 @@ Usage
 5. Merge gene-level files to one merged one  
    `sh gatk_somatic.cnv.mgi.sh -p merge_geneLevel -o ./gatk4scna`
 
+```
 
 
 
