@@ -20,9 +20,9 @@ Requirements
 ### Install
 
 ```
-	GATK v4.1.9.0
-	bedtools v2.30.0
-	Python3
+GATK v4.1.9.0
+bedtools v2.30.0
+Python3
 ```
 
 ### Set database
@@ -51,8 +51,7 @@ Requirements
 
 ```
 * make table
-    CaseID	NormalBam	TumorBam	Disease
-
+  CaseID	NormalBam	TumorBam	Disease
 ```
 
 
@@ -80,8 +79,6 @@ Usage
    `sh gatk_somatic.cnv.mgi.sh -p merge_geneLevel -o ./gatk4scna`
 
 ```
-
-
 
 
 Contact
