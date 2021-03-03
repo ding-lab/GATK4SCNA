@@ -76,7 +76,7 @@ Usage
    `sh gatk_somatic.cnv.mgi.sh -p geneLevel -t BRCA.paired.bam.catalog -o ./gatk4scna`
     
 5. Merge gene-level files to one merged one  
-   `sh gatk_somatic.cnv.mgi.sh -p merge_geneLevel -o ./gatk4scna`
+   `sh gatk_somatic.cnv.mgi.sh -p merge -o ./gatk4scna`
 
 ```
 
