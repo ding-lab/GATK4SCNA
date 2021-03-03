@@ -160,7 +160,7 @@ fi
 ##  STEP-6  merge gene-level
 ###############################
 
-if [[ $program == "merge_geneLevel" ]] || [[ $program == "s6" ]]; then
+if [[ $program == "merge" ]] || [[ $program == "s6" ]]; then
     
     sh $submitJob 2 1 gatk4cn.s6.${caseID} "${PYTHON3} $scriptDir/src/mergeMultipleFilesToOne.py ${outdir}"
     
