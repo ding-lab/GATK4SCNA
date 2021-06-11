@@ -6,7 +6,7 @@ This pipeline build for CPTAC2/3 projects to call somatic copy number alteration
 
 * Version v0.1
 	
-	> This version can only be used in MGI-Server (LSF).
+	> This version only used in MGI-Server (LSF).
 
 
 Tutorial
