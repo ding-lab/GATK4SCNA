@@ -21,7 +21,7 @@ submitJob=/gscmnt/gc3021/dinglab/hsun/Toolkit/LSF_mgi/lsf_submit.sh
 scriptDir=/gscuser/hua.sun/scripts/gatk4scna
 
 # set config.ini
-config=${scriptDir}/config.gatk4scna.mgi.ini
+config=${scriptDir}/config/config.gatk4scna.mgi.ini
 
 CNVPON=''
 outdir='.'
