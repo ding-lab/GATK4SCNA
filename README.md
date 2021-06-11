@@ -65,18 +65,25 @@ Usage
 
 1. CollectFragmentCounts for Normal Bam
    `sh gatk_somatic.cnv.mgi.sh -p precall -t ./bam.catalog -o ./gatk4scna`
-    
+    or
+    `sh gatk_somatic.cnv.mgi.sh -p precall -t ./bam.catalog -o ./gatk4scna -c ./config_file`
 2. Make pool normal
    `sh gatk_somatic.cnv.mgi.sh -p pon -o ./gatk4scna`
+   or
+   `sh gatk_somatic.cnv.mgi.sh -p pon -o ./gatk4scna -c ./config_file`
     
 3. Call tumor cnv based on pool normal
    `sh gatk_somatic.cnv.mgi.sh -p callcn -t bam.catalog -o ./gatk4scna`
-
+    or
+    `sh gatk_somatic.cnv.mgi.sh -p callcn -t bam.catalog -o ./gatk4scna -c ./config_file`
 4. Call gene-level
    `sh gatk_somatic.cnv.mgi.sh -p geneLevel -t BRCA.paired.bam.catalog -o ./gatk4scna`
-    
+    or
+    `sh gatk_somatic.cnv.mgi.sh -p geneLevel -t BRCA.paired.bam.catalog -o ./gatk4scna -c ./config_file`
 5. Merge gene-level files to one file  
    `sh gatk_somatic.cnv.mgi.sh -p merge -o ./gatk4scna`
+   or
+   `sh gatk_somatic.cnv.mgi.sh -p merge -o ./gatk4scna -c ./config_file`
 
 ```
 
